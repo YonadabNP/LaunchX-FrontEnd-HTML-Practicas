@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <title>Pastelería Yessy</title>
+</head>
+
+<body>
+
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        #page-content {
+            flex: 1 0 auto;
+        }
+
+        /* Other Classes for Page Styling */
+
+        body {
+            background: #fcfdfd;
+            background: linear-gradient(to right, #a4a5a7, #fcfdfd);
+        }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../../index.html">Pastelería Yessy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link " href="../../index.html">Home </a>
+                <a class="nav-link" active href="../precios/precios-main.html">Precios<span
+                        class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../orden/orden-main.html">Ordenar</a>
+                <a class="nav-link" href="../pastelero/pastelero-main.html">Pastelero</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="card">
+        <h1 class="card-header text-center">Página de Precios</h1>
+        <div class="card-body">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <strong>Lista de Precios de Sabores</strong>
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Sabor</th>
+                                        <th scope="col">Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Chocolate</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vainilla</td>
+                                        <td>$110</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fresa</td>
+                                        <td>$110</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Coco</td>
+                                        <td>$115</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rompope</td>
+                                        <td>$130</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cereza</td>
+                                        <td>$130</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mantequilla</td>
+                                        <td>$150</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                <strong>Lista de Precios de Adornos</strong>
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Adorno</th>
+                                        <th scope="col">Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Duyas (Boquillas) Basicas</td>
+                                        <td>$100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fondaint</td>
+                                        <td>$180</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Flores (Varía según temporada)</td>
+                                        <td>$250</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Decoracion Temática</td>
+                                        <td>$200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Decoracion de Arte en Fondaint</td>
+                                        <td>$300 - $600</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row text-center">
+                    <div class="text-center ml-3 mt-2">
+                        * Precios en Moneda Nacional, sujetos a cambio sin previo aviso.
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="sticky-footer" class="flex-shrink-2 py-5 bg-dark text-white-50">
+        <div class="container text-center">
+            <small><strong>Dirección: </strong>Av. Siempre Viva S/N</small></br>
+            <small><strong>Telefono: </strong>123-1234-3214</small></br>
+            <small><strong>Horarios: </strong> Lun a Sáb de 8 am - 8 pm </small></br>
+        </div>
+    </footer>
+
+</body>
+
+</html>
